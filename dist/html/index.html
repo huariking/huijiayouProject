@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>惠家有-首页</title>
+    <link rel="stylesheet" href="../css/reset.min.css">
+    <link rel="stylesheet" href="../css/index.min.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.css">
+    <style>
+        /* 二级菜单 */
+        .categoriesa {
+        text-decoration: none;
+    }
+    .categories> ul > li > ul {
+        position: absolute;
+         top: 204px;
+        left: 450px;
+        width: 850px;
+         height: 440px;
+         z-index: 1000;
+        line-height: 500px;
+        background: #f1f1f1;        
+        display: none;
+    } 
+    .categories > ul > li:hover ul {
+        display: block;
+    }      
+      .categories > ul > li > span:hover {
+        color: #dc0f50;
+        background-color: #f1f1f1;
+    }
+   
+    .categories> ul > li > ul > li > a {
+        width: 100px;
+        height: 36px;
+        line-height: 36px;
+        color: #456;
+        text-align: center;
+        margin: 20px;
+        border: 1px solid #ccc;
+        display: block;
+         top: 0px;
+        left: 35px; 
+    }
+    .categories> ul > li > ul > li > a:hover {
+        color: #dc0f50;
+    }
+    </style>
+</head>
+<body>
+<!-- 头部 -->
+<div id="head">
+    <div id="headTop">
+       <p>
+           <a class="sc">收藏</a>
+            <a href="index.html" target="_self">首页</a>
+            <a href="login.html" target="_blank">请登录</a>
+            <a href="register.html"target="_blank">免费注册</a>
+            <span>|</span>
+            <font>
+                <a>购物车</a>               
+                <a>0</a>
+                件
+            </font>
+            <a>我的家有</a>
+            <font>
+                可用优惠券
+                <a>0</a>
+                张
+            </font>
+            <a>我的收藏</a>
+            <span>|</span>
+            <label class="phone">
+                <a>手机版
+                    <strong  class="tanchu">
+                        <i></i>
+                        <img src="../img/ewm022.png" alt>
+                        <em>惠家有APP</em>  
+                      </strong>
+                </a>                
+            </label>
+            <label class="wx">
+                <a>微信版
+                  <strong class="tanchu">
+                    <i></i>
+                    <img src="../img/ewm011.jpg" alt>
+                    <em>惠家有微信</em>  
+                     <img src="../img/02_430.jpg" alt>
+                    <em>家有实验室</em> 
+                  </strong>
+             </a>                              
+            </label>
+       </p>        
+    </div>
+    <div id="headSearch">
+        <div class="top">
+            <h1>
+                <a>
+                    <img src="../img/logo.jpg" alt="惠家有" title="惠家有">
+                </a>
+            </h1>
+            <div class="search">
+                <input type="text" id="texSearch">
+                <a id="btnSearch" class="s1">搜索</a> 
+                <font class="hotWord">
+                    <a class="curr">破壁机</a>
+                    <a>女装</a>
+                    <a>京城之霜</a>
+                    <a>大米</a>
+                    <a>欧格玛</a>
+                    <a>红花籽油</a>
+                    <a>双立人</a>
+                    <a>乳胶床垫</a>
+                </font>
+            </div>
+            <div class="che">
+                <a class="gou">
+                    我的购物车
+                    <i>0</i>
+                </a>
+                
+            </div>
+           
+        </div>
+        <div class="nav">
+            <p id="nav1">全部分类              
+            </p>
+            <ul>
+                <li >
+                    <a class="curr">首页</a>
+                </li>
+                <li>
+                    <a>TV直播</a>
+                </li>
+                <li>
+                    <a>品牌惠</a>
+                </li>
+                <li>
+                    <a>惠家有APP</a>
+                </li>
+                <li>
+                    <a>家有尊享</a>
+                </li>
+            </ul>          
+        </div>          
+    </div>
+    
+</div>
+<!--   商品分类Categories  -->
+<div id="content">
+    <div class="xijie">
+        <div class="categories">
+            <ul>
+                <li>
+                    <span>家居家纺</span>
+                    <ul>
+                        <li><a href="../html/list.html">夏凉被</a></li>
+                        <li><a href="#">凉席凉枕</a></li>
+                        <li><a href="#">蚊帐</a></li>
+                        <li><a >乳胶枕/乳胶垫</a></li>
+                        <li><a>床品套件</a></li>
+                        <li><a >毛巾浴巾</a></li>
+                        <li><a>床单被罩</a></li>
+                        
+                                
+    
+                    </ul>
+                </li>
+                <li>
+                    <span>服饰鞋包</span>
+                    <ul>
+                        <li><a href="#">女士上装</a></li>
+                        <li><a href="#">连衣裙</a></li>
+                        <li><a href="#">打底裤</a></li>
+                        <li><a href="#">女士风衣</a></li>
+                        <li><a href="#">女士衬衫</a></li>
+                        <li><a href="#">外套</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span>美容化妆</span>
+                    <ul>
+                        <li><a href="#">面膜</a></li>
+                        <li><a href="#">护肤水</a></li>
+                        <li><a href="#">口红</a></li><li>
+                        <a href="#">面霜</a></li>
+                        <li><a href="#">卸妆水</a></li>
+                        <li><a href="#">眉笔</a></li>
+                                                      
+                    </ul>
+                </li>
+                <li>
+                    <span>酒水茗茶</span>
+                    <ul>
+                        <li><a href="#">茅台</a></li>
+                        <li><a href="#">汾酒</a></li>
+                        <li><a href="#">青岛啤酒</a></li>
+                        <li><a href="#">普洱茶</a></li>
+                        <li><a href="#">毛尖茶</a></li>                                    
+                    </ul>
+                </li>
+                <li>
+                    <span>海外购</span>
+                    <ul>
+                        <li><a href="#">美容美颜</a></li>
+                        <li><a href="#">耐克</a></li>
+                        <li><a href="#">营养保健</a></li>                                                      
+                    </ul>
+                </li>
+                <li>
+                    <span>厨房用具</span>
+                    <ul>
+                        <li><a href="#">精选套装</a></li>
+                        <li><a href="#">铁锅</a></li>
+                        <li><a href="#">不粘锅</a></li>
+                        <li><a href="#">厨房刀具</a></li>
+                        <li><a href="#">电饭锅</a></li>                                                                            
+                    </ul>
+                </li>
+                <li>
+                    <span>家用电器</span>
+                    <ul>
+                        <li><a href="#">夏凉被</a></li>
+                        <li><a href="#">凉席凉枕</a></li>
+                        <li><a href="#">蚊帐</a></li>
+                        <li><a href="#">夏凉被</a></li>
+                        <li><a href="#">凉席凉枕</a></li>
+                        <li><a href="#">蚊帐</a></li>
+                        <li><a href="#">乳胶枕/乳胶垫</a></li>
+                        <li><a href="#">床品套件</a></li>                                                       
+                    </ul>
+                </li>
+                <li>
+                    <span>粮油生鲜</span>
+                    <ul>
+                        <li><a href="#">米面</a></li>
+                        <li><a href="#">杂粮</a></li>
+                        <li><a href="#">食用油</a></li>
+                        <li><a href="#">调味品</a></li>
+                        <li><a href="#">南北干货</a></li>                                                      
+                    </ul>
+                </li>
+                <li>
+                    <span>珠宝钟表</span>
+                    <ul>
+                        <li><a href="#">国产手表</a></li>
+                        <li><a href="#">原装进口表</a></li>
+                        <li><a href="#">项链</a></li>                                                      
+                    </ul>
+                </li>
+                <li>
+                    <span>休闲食品</span>
+                    <ul>
+                        <li><a href="#">坚果炒货</a></li>
+                        <li><a href="#">蜜饯果干</a></li>
+                        <li><a href="#">罐头</a></li>
+                        <li><a href="#">饼干蛋糕</a></li>                                                      
+                    </ul>
+                </li>
+                <li>
+                    <span>黄金饰品</span>
+                    <ul>
+                        <li><a href="#">黄金项链</a></li>
+                        <li><a href="#">黄金吊坠</a></li>
+                        <li><a href="#">黄金手镯</a></li>                                                       
+                    </ul>
+                </li>
+                <li>
+                    <span>营养保健</span>
+                    <ul>
+                        <li><a href="#">维生素</a></li>
+                        <li><a href="#">矿物质</a></li>
+                        <li><a href="#">蛋白质</a></li>
+                        <li><a href="#">胶原蛋白</a></li>
+                        <li><a href="#">钙片</a></li>
+                        <li><a href="#">益生菌</a></li>
+                        <li><a href="#">膳食纤维</a></li>                                                      
+                    </ul>
+                </li>
+            </ul>    
+        </div>
+        <!-- 轮播图 -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(../img/50de.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(../img/51de.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(../img/52de.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(../img/53de.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(../img/50de.jpg)"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination swiper-pagination-white"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next swiper-button-white"></div>
+            <div class="swiper-button-prev swiper-button-white"></div>
+        </div>
+        <!-- 轮播图js -->
+        <!-- Swiper JS -->
+        <script src="../js/swiper-bundle.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            effect: 'fade',
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            });
+        </script>
+            <!-- 登录 -->
+        <div class="fr fr_02">
+            <div class="per_conliset" style=" border 1px solid #e5e5e5; margin-bottom 10px;">
+                <div class="personal" id="accountInfo">
+                    <!--==未登录==-->
+                    <div class="no" style="">
+                        <div class="hd">
+                            <img src="https://image-mall.huijiayou.cn/hjyweb/img/dome_07_1.png" alt="">
+                            <i>hi！欢迎来到家有购物</i>
+                        </div>
+                        <a  class="dl" href="login.html" target="_blank">登 录</a>
+                        <p><a href="register.html" target="_blank">免费注册</a></p>
+                    </div>
+                    <!--==已登录==-->
+                </div>
+                <div class="conve-list">
+                    <div class="hd">4008-678-210</div>
+                    <ul>
+                        <li><a ><i class="i1"></i>直播<br>节目表</a></li>
+                        <li><a ><i class="i2"></i>掌上<br>购物</a></li>
+                        <li><a ><i class="i3"></i>物流<br>查询</a></li>
+                        <li><a ><i class="i4"></i>会员<br>中心</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="goods-hd" id="rightAd">
+            </div> -->
+        </div>
+    </div>      
+</div>
+<!-- 广告图片 -->
+<div id="banner">
+    <ul>
+        <li >
+            <a href="http://zt-family.huijiayou.cn/cfamily/web/template/templateForPc.html?pNum=PNM190516100008">
+                <img src="../img/banner1.webp" alt="">
+             </a>
+        </li>
+        <li>
+            <a href="http://zt-family.huijiayou.cn/cfamily/web/template/templateForPc.html?pNum=PNM190516100020">
+                <img src="../img/banner2.webp" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="http://zt-family.huijiayou.cn/cfamily/web/template/templateForPc.html?pNum=PNM190516100003">
+                <img src="../img/banner3.jpg" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="http://zt-family.huijiayou.cn/cfamily/web/template/templateForPc.html?pNum=PNM190516100004">
+                <img src="../img/banner4.jpg" alt="">  
+            </a>
+        </li>
+        <li></li>
+        <li></li>
+    </ul>   
+</div>
+<!-- 图标 -->
+<div id="warrant">
+    <ul>
+        <li class="l1">
+            <b>100%正品保证</b>
+            <i>质量保证</i>
+        </li>
+        <li class="l2">
+            <b>在线支付 全场包邮</b>
+            <i>送货上门</i>
+        </li>
+        <li class="l3">
+            <b>支持银联刷卡付款</b>
+            <i>付款更安全</i>
+        </li>
+        <li class="l4">
+            <b>货到付款 开箱验货</b>
+            <i>满意才收货</i>
+        </li>
+        <li class="l5">
+            <b>7x24小时人工服务</b>
+            <i>微笑无时无刻 4008-678-210</i>
+        </li>
+    </ul>
+</div>
+
+<!-- 底部 -->
+<div id="footer">
+    <div class="cont">
+        <div class="fl" >
+        <dl>
+            <dt>
+                <a>关于我们</a>
+            </dt>
+            <dd>
+                <a>公司介绍</a>
+            </dd>
+            <dd>
+                <a >招聘信息</a>
+            </dd>
+            <dd><a 
+                >联系我们</a>
+            </dd>
+            <dd>
+                <a>用户隐私条款</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <a>订购指南</a>
+            </dt>
+            <dd>
+                <a>交易条款</a>
+            </dd>
+            <dd>
+                <a >注册/购物流程</a>
+            </dd>
+            <dd>
+                <a>退/换货</a>
+            </dd>
+            <dd>
+                <a>积分说明</a>
+            </dd>
+            <dd><a>收票指南</a>
+            </dd>
+            <dd>
+                <a>会员制度说明</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <a>配送服务</a>
+            </dt>
+            <dd>
+                <a>配送区域</a>
+            </dd>
+            <dd>
+                <a >配送时间</a>
+            </dd>
+            <dd>
+                <a>验货与签收</a>
+            </dd>
+        </dl> 
+        <dl>
+            <dt>
+                <a>支付方式</a>
+            </dt>
+            <dd>
+                <a>网上支付</a>
+            </dd>
+            <dd>
+                <a >货到付款</a>
+            </dd>
+        </dl> 
+        <dl>
+            <dt>
+                <a>合作专区</a>
+            </dt>
+            <dd>
+                <a>成为供应商</a>
+            </dd>
+            <dd>
+                <a >供应商系统</a>
+            </dd>
+            <dd>
+                <a>合作伙伴</a>
+            </dd>
+        </dl> 
+        </div>
+        <div class="fr">
+            <ul class="hd">
+                <li><img src="../img/ewm011.jpg" alt="惠家有微信">惠家有微信</li>
+                <li><img src="../img/ewm022.png" alt="惠家有APP">惠家有APP</li>
+            </ul>
+            <P>
+                <b>4008-678-210</b>
+                <i>客服 7x24小时 (全年无休)</i>
+            </P>
+        </div>
+    </div>
+    
+</div>
+<!-- 最底部 -->
+<div id="footBottom">
+    <div class="cont">
+        <p id="friendLinkList" module="202051">友情链接： <a href="http://www.sj001.com/" target="_blank" num="202051-1"> 南京手机报价</a> <a href="http://www.e.cn" target="_blank" num="202051-2">竞拍</a> <a href="http://www.aolaigo.com/ " target="_blank" num="202051-3">奥莱购</a> <a href="http://wiki.smzdm.com/" target="_blank" num="202051-4">商品百科</a></p>
+        <p>Copyright © 2008-2020 
+             <a >北京家有德顺文化发展有限公司</a> 版权所有 京ICP备14011161号-5  增值电信业务经营许可证：黔B2-20120036
+			<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502038221" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;" ><img src="https://image-mall.huijiayou.cn/hjyweb/img/ba/ba.png" style="float:left;">京公网安备 11010502038221号</a>
+			</p>
+    </div>
+</div>
+<!-- 回到顶部 -->
+<ul id="drift">
+    <li class="l1">
+        <a href="">
+            <strong class="tan2">
+                <i></i>
+                <img src="../img/ewm022.png" alt="">
+                <em>惠家有APP</em>
+            </strong>
+        </a>
+    </li>
+    <li class="l2">
+        <a href="">
+            <strong class="tan2">
+                <i></i>
+                <img src="../img/ewm011.jpg" alt="">
+                <em>惠家有微信</em>
+            </strong>
+        </a>
+    </li>
+    <li class="l3" id="back-to-top" style="display: list-item;">
+        <a href=""></a>
+    </li>
+</ul>
+    
+
+</body>
+</html>

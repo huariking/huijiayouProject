@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>惠家有-商品页</title>
+    <link rel="stylesheet" href="../css/reset.min.css">
+    <link rel="stylesheet" href="../css/index.min.css">
+    <link rel="stylesheet" href="../css/list.min.css">
+</head>
+<body>
+    <!-- 头部 -->
+<div id="head">
+    <div id="headTop">
+       <p>
+           <a class="sc">收藏</a>
+           <a href="index.html"target="_blank" >首页</a>
+           <a href="login.html" target="_blank">请登录</a>
+           <a href="register.html"target="_blank">免费注册</a>
+            <span>|</span>
+            <font>
+                购物车
+                <a>0</a>
+                件
+            </font>
+            <a>我的家有</a>
+            <font>
+                可用优惠券
+                <a>0</a>
+                张
+            </font>
+            <a>我的收藏</a>
+            <span>|</span>
+            <label class="phone">
+                <a>手机版
+                    <strong  class="tanchu">
+                        <i></i>
+                        <img src="../img/ewm022.png" alt>
+                        <em>惠家有APP</em>  
+                      </strong>
+                </a>                
+            </label>
+            <label class="wx">
+                <a>微信版
+                  <strong class="tanchu">
+                    <i></i>
+                    <img src="../img/ewm011.jpg" alt>
+                    <em>惠家有微信</em>  
+                     <img src="../img/02_430.jpg" alt>
+                    <em>家有实验室</em> 
+                  </strong>
+             </a>                              
+            </label>
+       </p>        
+    </div>
+    <div id="headSearch">
+        <div class="top">
+            <h1>
+                <a>
+                    <img src="../img/logo.jpg" alt="惠家有" title="惠家有">
+                </a>
+            </h1>
+            <div class="search">
+                <input type="text" id="texSearch">
+                <a id="btnSearch" class="s1">搜索</a> 
+                <font class="hotWord">
+                    <a class="curr">破壁机</a>
+                    <a>女装</a>
+                    <a>京城之霜</a>
+                    <a>大米</a>
+                    <a>欧格玛</a>
+                    <a>红花籽油</a>
+                </font>
+            </div>
+            <div class="che">
+                <a class="gou">
+                    我的购物车
+                    <i>0</i>
+                </a>
+                
+            </div>
+           
+        </div>
+        <div class="nav">
+            <p id="nav1">全部分类              
+            </p>
+            <ul>
+                <li >
+                    <a class="curr">首页</a>
+                </li>
+                <li>
+                    <a>TV直播</a>
+                </li>
+                <li>
+                    <a>品牌惠</a>
+                </li>
+                <li>
+                    <a>惠家有APP</a>
+                </li>
+                <li>
+                    <a>家有尊享</a>
+                </li>
+            </ul>          
+        </div>          
+    </div> 
+</div>
+<!-- 商品列表 -->
+<div id="goodsList">
+    <div class="list">
+        <h2>
+            <a>全部商品</a>
+        </h2>
+        <div class="term">
+            <dl>
+                <dt class="top">分类</dt>
+                <dd><a  class="curr">全部</a></dd>
+            </dl>
+            <dl>
+                <dt>品牌</dt>
+                <dd><a>全部</a></dd>
+            </dl>
+        </div>
+        <div class="filter">
+            <ul>
+                <li class="curr">综合</li>
+                <li>销量
+                    <i></i>
+                </li>
+                <li>人气
+                    <i></i>
+                </li>
+                <li>价格
+                    <b></b>
+                </li>
+                <li id="on">
+                    <input type="text" placeholder="￥">
+                    <span>-</span>
+                    <input type="text" placeholder="￥">
+                    <a>确认</a>
+                </li>
+            </ul>
+        </div>
+        <ul class="goods">  
+            <!-- <li>
+                <a>
+                    <img src="../img/listgoods.webp">
+                    <b>icoffy女式自由领吸湿发热打底衫</b>
+                    <p>￥229</p>
+                    <font>
+                        <span>月售222件</span>
+                    </font>
+                </a>
+            </li>  -->
+        </ul>
+        <div class="page">
+            <span >
+             <a class="curr" > 
+                 <span id="prePge">上一页</span>
+             </a>
+            <a  class="tonum" class="curr">1</a>
+            <a  class="tonum">2</a>
+            <a  class="tonum">3</a>
+            <a  class="tonum">4</a>
+            <span>...</span>
+            <a>11</a>
+            <a>12</a>
+            <a >
+                <span id="nextPge" >下一页</span>
+            </a>
+        </span>
+        <span>
+            <em>共12页 到第
+                <input id="ty" type="text" value="1">页
+            </em>
+            <a>确定</a>
+        </span>
+        </div>
+    </div> 
+    <div class="recommend">
+        <div class="selling">
+            <div class="hx">
+                <h2>热销推荐</h2>
+            </div>
+                <ul class="pm">
+                    <li>
+                        <a>          
+                            <i class="i1">1</i>
+                            <img src="../img/001.webp" alt="">
+                            <b title="JBL SD-12 蓝牙插卡小音箱 便携迷你低音炮 MP3播放器 FM收音机音响 TF内存卡 学习戏曲故事英语 黑色">JBL SD-12 蓝牙插卡小音箱 便携迷你低音炮...</b>
+                            <em>￥287</em>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a>           
+                            <i class="i2">2</i>
+                            <img src="../img/002.webp" alt="">                            <b title="JBL PULSE3 音乐脉动三代 便携式蓝牙音箱 炫彩小音箱+低音炮桌面音响可免提通话典雅黑">JBL PULSE3 音乐脉动三代 便携式蓝牙音箱...</b>
+                            <em>￥1376</em>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a>          
+                            <i class="i3">3</i>
+                            <img src="../img/003.webp" alt="">                            <b title="JBL SD-18 无线蓝牙音箱 插卡迷你音响 便携式收音机 播放器唱戏机 可连U盘TF卡 学习娱乐户外居家 黑色">JBL SD-18 无线蓝牙音箱 插卡迷你音响 便...</b>
+                            <em>￥397</em>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a>   
+                            <img src="../img/004.webp" alt="">                            <b title="JBL STV135音响 音箱 家庭影院 电视音响 蓝牙音响 条形音响 回音壁 壁挂音响 soundbar  低音炮">JBL STV135音响 音箱 家庭影院 电视音响...</b>
+                            <em>￥1124</em>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a>           
+                            <img src="../img/005.webp" alt="">                            <b title="JBL JR300BT头戴式无线蓝牙儿童耳机 英语网课教育学习麦克风低分贝降噪学生耳机 通用华为苹果小米 粉色">JBL JR300BT头戴式无线蓝牙儿童耳机 英语...</b>
+                            <em>￥387</em>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a>                    
+                            <img src="../img/006.webp" alt="">                            <b title="JBL Reflect Mini BT 2.0入耳式无线运动蓝牙耳机 跑步防汗防水音乐手机夜跑耳机  苹果安卓通用耳麦 黑色">JBL Reflect Mini BT 2.0入耳...</b>
+                            <em>￥534</em>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a>           
+                            <img src="../img/007.webp" alt="">                            <b title="JBL PS3300 无线蓝牙2.0音箱 电脑多媒体音箱/音响 桌面音箱 低音炮 独立高低音 台式机手机音响 白色">JBL PS3300 无线蓝牙2.0音箱 电脑多媒...</b>
+                            <em>￥324</em>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a>                       
+                            <img src="../img/008.webp" alt="">                            <b title="JBL TUNE2 多功能插卡蓝牙音箱 便携式户外音响 手机播放器 FM收音机 U盘TF卡 学生学习 老人娱乐 黑色">JBL TUNE2 多功能插卡蓝牙音箱 便携式户外...</b>
+                            <em>￥534</em>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a>    
+                            <img src="../img/009.webp" alt="">                            <b title="JBL T280BT 入耳式蓝牙无线耳机 运动手机游戏耳机 苹果安卓手机耳机 金属钛振膜 跑步磁吸式带麦 寒光灰">JBL T280BT 入耳式蓝牙无线耳机 运动手机...</b>
+                            <em>￥376</em>
+                        </a>
+                    </li>
+                </ul>
+        </div>
+    </div> 
+</div>
+<!-- 图标 -->
+<div id="warrant">
+    <ul>
+        <li class="l1">
+            <b>100%正品保证</b>
+            <i>质量保证</i>
+        </li>
+        <li class="l2">
+            <b>在线支付 全场包邮</b>
+            <i>送货上门</i>
+        </li>
+        <li class="l3">
+            <b>支持银联刷卡付款</b>
+            <i>付款更安全</i>
+        </li>
+        <li class="l4">
+            <b>货到付款 开箱验货</b>
+            <i>满意才收货</i>
+        </li>
+        <li class="l5">
+            <b>7x24小时人工服务</b>
+            <i>微笑无时无刻 4008-678-210</i>
+        </li>
+    </ul>
+</div>
+
+<!-- 底部 -->
+<div id="footer">
+    <div class="cont">
+        <div class="fl" >
+        <dl>
+            <dt>
+                <a>关于我们</a>
+            </dt>
+            <dd>
+                <a>公司介绍</a>
+            </dd>
+            <dd>
+                <a >招聘信息</a>
+            </dd>
+            <dd><a 
+                >联系我们</a>
+            </dd>
+            <dd>
+                <a>用户隐私条款</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <a>订购指南</a>
+            </dt>
+            <dd>
+                <a>交易条款</a>
+            </dd>
+            <dd>
+                <a >注册/购物流程</a>
+            </dd>
+            <dd>
+                <a>退/换货</a>
+            </dd>
+            <dd>
+                <a>积分说明</a>
+            </dd>
+            <dd><a>收票指南</a>
+            </dd>
+            <dd>
+                <a>会员制度说明</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <a>配送服务</a>
+            </dt>
+            <dd>
+                <a>配送区域</a>
+            </dd>
+            <dd>
+                <a >配送时间</a>
+            </dd>
+            <dd>
+                <a>验货与签收</a>
+            </dd>
+        </dl> 
+        <dl>
+            <dt>
+                <a>支付方式</a>
+            </dt>
+            <dd>
+                <a>网上支付</a>
+            </dd>
+            <dd>
+                <a >货到付款</a>
+            </dd>
+        </dl> 
+        <dl>
+            <dt>
+                <a>合作专区</a>
+            </dt>
+            <dd>
+                <a>成为供应商</a>
+            </dd>
+            <dd>
+                <a >供应商系统</a>
+            </dd>
+            <dd>
+                <a>合作伙伴</a>
+            </dd>
+        </dl> 
+        </div>
+        <div class="fr">
+            <ul class="hd">
+                <li><img src="../img/ewm011.jpg" alt="惠家有微信">惠家有微信</li>
+                <li><img src="../img/ewm022.png" alt="惠家有APP">惠家有APP</li>
+            </ul>
+            <P>
+                <b>4008-678-210</b>
+                <i>客服 7x24小时 (全年无休)</i>
+            </P>
+        </div>
+    </div>
+    
+</div>
+<!-- 最底部 -->
+<div id="footBottom">
+    <div class="cont">
+        <p id="friendLinkList" module="202051">友情链接： <a href="http://www.sj001.com/" target="_blank" num="202051-1"> 南京手机报价</a> <a href="http://www.e.cn" target="_blank" num="202051-2">竞拍</a> <a href="http://www.aolaigo.com/ " target="_blank" num="202051-3">奥莱购</a> <a href="http://wiki.smzdm.com/" target="_blank" num="202051-4">商品百科</a></p>
+        <p>Copyright © 2008-2020 
+             <a >北京家有德顺文化发展有限公司</a> 版权所有 京ICP备14011161号-5  增值电信业务经营许可证：黔B2-20120036
+			<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502038221" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;" ><img src="https://image-mall.huijiayou.cn/hjyweb/img/ba/ba.png" style="float:left;">京公网安备 11010502038221号</a>
+			</p>
+    </div>
+</div>
+
+<script src="../js/cookie.js"></script>
+<script src="../js/ajax.js"></script>
+<script src="../js/list.js"></script>
+
+    <!-- <script>
+        //获取页面元素
+       
+        let ul = document.querySelector('.goods');
+        let o_num= document.querySelectorAll('.tonum');
+         let ty = document.querySelector('#ty');
+         let prepge = document.querySelector('#prePge');
+         let nextpge = document.querySelector('#nextPge');
+        //添加事件
+        ajax(`goods1.json?t=${new Date().getTime()}`,(data)=>{
+                    //解析字符串
+                    let arr = (new Function('return' + data))();
+                    //遍历数组
+                    arr.forEach((value)=>{                    
+                        let li = document.createElement('li');
+                        li.innerHTML = `
+                        <a>
+                                <img id="goodSrc" src="${value.src}">
+                                <b id="goodName">${value.name}</b>
+                                <p id="goodPrice">${value.price}</p>
+                                <font>
+                                    <span id="goodsell">${value.sell}</span>
+                                </font>
+                         </a>
+                        `;
+                        ul.appendChild(li);     
+                    })
+                })
+     for(let i = 0,len = o_num.length;i < len;i ++){
+            o_num[i].onclick = function(){
+                //清空ul
+                ul.innerHTML = '';
+                ajax(`goods${i +1}.json?t=${new Date().getTime()}`,(data)=>{
+                    //解析字符串
+                    let arr = (new Function('return' + data))();
+                    //遍历数组
+                    arr.forEach((value)=>{                    
+                        let li = document.createElement('li');
+                        li.innerHTML = `
+                        <a>
+                                <img id="goodSrc" src="${value.src}">
+                                <b id="goodName">${value.name}</b>
+                                <p id="goodPrice">${value.price}</p>
+                                <font>
+                                    <span id="goodsell">${value.sell}</span>
+                                </font>
+                         </a>
+                        `;
+                        ul.appendChild(li);    
+                        ty.value = 1+i;
+                    })
+                })
+            }
+        }
+    </script> -->
+</body>
+</html>

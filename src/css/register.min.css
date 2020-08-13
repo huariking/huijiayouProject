@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/*注册页*/
+#register {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background: #fff;
+  padding: 30px 80px 0;
+}
+
+#register .fr {
+  margin-top: 50px;
+  float: right;
+}
+
+#register .fl {
+  margin-left: -50px;
+  width: 590px;
+  float: left;
+  overflow: hidden;
+}
+
+#register .fl ul li {
+  overflow: hidden;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+#register .fl ul li b {
+  display: block;
+  width: 80px;
+  font-size: 14px;
+  color: #666;
+  float: left;
+  text-align: right;
+  margin-right: 12px;
+}
+
+#register .fl ul li b i {
+  font-family: "宋体";
+  color: #dc0f50;
+  font-size: 14px;
+  margin-right: 3px;
+}
+
+#register .fl ul li input {
+  width: 305px;
+  padding: 9px 20px;
+  height: 40px;
+  border: 1px solid #d6d6d6;
+  color: #666;
+  float: left;
+  margin-right: 15px;
+}
+
+#register .fl ul li input.text {
+  width: 180px;
+}
+
+#register .fl ul li button {
+  width: 110px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  line-height: 40px;
+  background: #dc0f50;
+  color: #fff;
+  font-size: 14px;
+  float: left;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+#register .fl ul li button:hover {
+  filter: alpha(opacity=90);
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+}
+
+#register .fl ul li button.curr {
+  line-height: 19px;
+  color: #fff;
+  background: #d6d6d6;
+}
+
+#register .fl p {
+  overflow: hidden;
+  margin-top: -35px;
+  text-align: right;
+  padding-right: 100px;
+  height: 48px;
+  line-height: 48px;
+  color: #666;
+  font-size: 14px;
+}
+
+#register .fl p input {
+  margin: 0 5px 0 0;
+  position: relative;
+  top: 2px;
+}
+
+#register .fl p input a {
+  width: 305px;
+  float: right;
+  height: 40px;
+  line-height: 40px;
+}
+
+#register .fl .on {
+  margin: 5px 0 0 0;
+}
+
+#register .fl .on a {
+  display: block;
+  background: #dc0f50;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  width: 305px;
+  float: right;
+  height: 40px;
+}
+
+#register .fl font {
+  display: block;
+  line-height: 20px;
+  text-align: right;
+  padding-right: 100px;
+  margin-bottom: 30px;
+}
+
+#register .fl font a {
+  color: #666;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+#register .fl font a:hover {
+  color: #c00;
+}

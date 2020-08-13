@@ -1,0 +1,130 @@
+/*登录部分*/
+#login {
+    padding: 60px 70px 30px 70px;
+    overflow: hidden;
+    width: 1060px;
+    margin: 0 auto;
+    .fl {
+        float: left;
+        width: 448px;
+        height: 336px;
+        padding: 40px 0 0 0;
+        overflow: hidden;
+        margin-bottom: 75px;
+    }
+    .fr {
+        height: 376px;
+        width: 448px;
+        float: right;
+        overflow: hidden;
+        margin-bottom: 75px;
+        .hd {
+            height: 40px;
+            line-height: 40px;
+            overflow: hidden;
+            a {
+                display: block;
+                width: 50%;
+                text-align: center;
+                float: left;
+                cursor: pointer;
+                font-size: 18px;
+                color: #666;
+                i {
+                    display: inline-block;
+                    height: 38px;
+                }
+                
+            }
+            a.curr i {
+                color: #dc0f50;
+                border-bottom: 2px solid #dc0f50;
+            }
+        }
+        .bd {
+            margin-top: -1px;
+            overflow: hidden;
+            height: 290px;
+            border: 1px solid #e5e5e5;
+            padding: 45px 0 0 70px;
+            ul li {
+                overflow: hidden;
+                height: 40px;
+                margin-bottom: 19px;
+                position: relative;
+                input {
+                    margin-right: 16px;
+                    float: left;
+                    height: 40px;
+                    line-height: 40px;
+                    padding: 5px 0 5px 60px;
+                    width: 305px;
+                    border: 1px solid #d6d6d6;
+                    font-size: 14px;
+                    color: #666;
+                }
+                i {
+                    display: block;
+                    width: 18px;
+                    height: 18px;
+                    background: url(../img/icon01.png) no-repeat;
+                    position: absolute;
+                    left: 11px;
+                    top: 11px;
+                }
+                i.i2 {
+                    width: 14px;
+                    background: url(../img/icon02.png) no-repeat;
+                    left: 13px;
+                }
+                 span {
+                float: right;
+                padding-right: 70px;
+                }
+                span a,  label {
+                    color: #666;
+                    font-size: 14px;
+                }
+                label input {
+                    width: 13px;
+                    height: 13px;
+                    border: none;
+                    float: left;
+                    margin-top: 5px;
+                    margin-right: 5px;
+                    padding: 0;
+                }
+            }
+            ul li.curr {
+                font-size: 14px;
+                color: 666;
+                margin-top: -14px;
+            }
+            p {
+                height: 40px;
+                line-height: 40px;
+                padding-right: 70px;
+            }
+            ul li a {
+                padding-left: 10px;
+                color: #666;
+                font-size: 14px;
+            }
+            ul li a:hover {
+                color: #c00;
+            }
+            p a {
+                display: block;
+                background: #dc0f50;
+                text-align: center;
+                font-size: 18px;
+                color: #fff;
+            }
+            p a:hover {
+                filter: alpha(opacity=90);
+                -moz-opacity: 0.9;
+                opacity: 0.9;
+            }
+        }
+    }
+}

@@ -1,0 +1,369 @@
+#goodsList {
+  overflow: hidden;
+  width: 1200px;
+  margin: 15px auto;
+}
+
+#goodsList .list {
+  width: 957px;
+  float: left;
+  overflow: hidden;
+}
+
+#goodsList .list h2 {
+  height: 32px;
+  line-height: 32px;
+}
+
+#goodsList .list h2 a {
+  font-size: 14px;
+  color: #333;
+}
+
+#goodsList .list .term {
+  margin-bottom: 19px;
+  border: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+
+#goodsList .list .term dl {
+  overflow: hidden;
+  line-height: 58px;
+  position: relative;
+}
+
+#goodsList .list .term dl .top {
+  border-bottom: 1px dashed #e5e5e5;
+}
+
+#goodsList .list .term dl dt {
+  width: 80px;
+  background: #f1f1f1;
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+  padding-left: 10px;
+  float: left;
+  height: 100%;
+}
+
+#goodsList .list .term dl dd {
+  width: 840px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  height: 58px;
+  padding-left: 10px;
+}
+
+#goodsList .list .term dl dd a {
+  display: block;
+  height: 22px;
+  margin: 18px 35px 18px 0;
+  overflow: hidden;
+  float: left;
+  line-height: 22px;
+  font-size: 12px;
+  color: #666;
+  padding: 0 6px;
+}
+
+#goodsList .list .term dl dd a.curr {
+  background: #dc0f50;
+  color: #fff;
+}
+
+#goodsList .list .filter {
+  margin-bottom: 30px;
+  height: 45px;
+  border: 1px solid #e5e5e5;
+  background: #f1f1f1;
+}
+
+#goodsList .list .filter li {
+  width: 88px;
+  float: left;
+  height: 46px;
+  overflow: hidden;
+  text-align: center;
+  line-height: 45px;
+  font-size: 12px;
+  color: #333;
+  cursor: pointer;
+}
+
+#goodsList .list .filter li i {
+  display: inline-block;
+  width: 10px;
+  height: 11px;
+  background: url(../img/filter_i_bg.png) no-repeat;
+  margin-left: 4px;
+  position: relative;
+  top: 1px;
+}
+
+#goodsList .list .filter li a {
+  display: none;
+}
+
+#goodsList .list .filter li b {
+  display: inline-block;
+  width: 8px;
+  height: 10px;
+  background: url(../img/filter_b_bg2.png) no-repeat;
+  background-position: 0 -5px;
+  margin-left: 4px;
+  position: relative;
+  top: 1px;
+}
+
+#goodsList .list .filter li.curr {
+  color: #dc0f50;
+  border-left: 1px solid #e5e5e5;
+  background: #fff;
+  border-right: 1px solid #e5e5e5;
+}
+
+#goodsList .list .filter li.curr i {
+  background-position: 0 -11px;
+}
+
+#goodsList .list .filter li#on {
+  width: 222px;
+  padding-left: 21px;
+  background: #fff;
+}
+
+#goodsList .list .filter li#on input {
+  width: 32px;
+  padding: 0 10px;
+  float: left;
+  text-align: left;
+  margin-top: 11px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  color: #666;
+  border: 1px solid #d6d6d6;
+}
+
+#goodsList .list .filter li#on input:focus {
+  border: 1px solid #dc0f50;
+}
+
+#goodsList .list .filter li#on span {
+  float: left;
+  padding: 0 10px;
+  color: 14px;
+  color: #bdbdbd;
+}
+
+#goodsList .list .filter li#on a {
+  display: block;
+  width: 50px;
+  height: 24px;
+  line-height: 24px;
+  background: #dc0f50;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  float: left;
+  margin: 11px 0 0 15px;
+}
+
+#goodsList .list .goods {
+  padding: 0 10px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#goodsList .list .goods li {
+  padding: 0 10px;
+  float: left;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#goodsList .list .goods li a {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+#goodsList .list .goods li a b {
+  padding: 5px 0;
+  overflow: hidden;
+  height: 40px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #333;
+  display: block;
+}
+
+#goodsList .list .goods li a p {
+  height: 24px;
+  line-height: 24px;
+  font-size: 20px;
+  color: #e11f24;
+}
+
+#goodsList .list .goods li a p i {
+  float: right;
+  font-size: 14px;
+  color: #999;
+  text-decoration: line-through;
+}
+
+#goodsList .list .goods li a img {
+  display: block;
+  width: 214px;
+  height: 214px;
+}
+
+#goodsList .list .goods li font {
+  display: block;
+  font-size: 14px;
+  color: #666;
+}
+
+#goodsList .list .goods li font span {
+  float: left;
+}
+
+#goodsList .list .page {
+  margin-bottom: 30px;
+  text-align: center;
+  float: left;
+  padding-left: 140px;
+  overflow: hidden;
+}
+
+#goodsList .list .page a {
+  display: inline-block;
+  padding: 0 15px;
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #e5e5e5;
+  background: #fafafa;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+#goodsList .list .page a.curr, #goodsList .list .page .pag a:hover {
+  border: 1px solid #dc0f50;
+  color: #fff;
+  background: #dc0f50;
+}
+
+#goodsList .list .page em {
+  padding-left: 18px;
+  line-height: 34px;
+  font-size: 14px;
+  color: #666;
+  margin-right: 10px;
+}
+
+#goodsList .list .page input {
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  margin: 0 3px;
+}
+
+#goodsList .list .page span a {
+  display: inline-block;
+  padding: 0 15px;
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #e5e5e5;
+  background: #fafafa;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+#goodsList .list .page span a.curr, #goodsList .list .page span a:hover {
+  border: 1px solid #dc0f50;
+  color: #fff;
+  background: #dc0f50;
+}
+
+#goodsList .recommend {
+  width: 233px;
+  overflow: hidden;
+  float: right;
+}
+
+#goodsList .recommend .selling .rx h2 {
+  font-size: 20px;
+  padding-left: 8px;
+}
+
+#goodsList .recommend .pm li {
+  height: 100px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  padding-left: 97px;
+}
+
+#goodsList .recommend .pm li a {
+  display: block;
+  height: 80px;
+}
+
+#goodsList .recommend .pm li a img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+#goodsList .recommend .pm li a b {
+  display: block;
+  height: 32px;
+  line-height: 16px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 22px;
+}
+
+#goodsList .recommend .pm li a i {
+  display: block;
+  width: 25px;
+  height: 25px;
+  line-height: 18px;
+  padding-left: 5px;
+  font-size: 12px;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  z-index: 1;
+}
+
+#goodsList .recommend .pm li a i.i1 {
+  background: url(../img/biao_bg.png) no-repeat;
+}
+
+#goodsList .recommend .pm li a i.i2 {
+  background: url(../img/biao_bg.png) no-repeat 0 -26px;
+}
+
+#goodsList .recommend .pm li a i.i3 {
+  background: url(../img/biao_bg.png) no-repeat 0 -52px;
+}
+
+#goodsList .recommend .pm li a em {
+  font-size: 20px;
+  color: #dc0f50;
+  line-height: 26px;
+}
